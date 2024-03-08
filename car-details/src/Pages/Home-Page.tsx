@@ -1,4 +1,4 @@
-import style from "../styles/globals.module.css";
+import style from "../styles/globals.module.scss";
 const HomePage = () => {
     return(
         <div className={style.container}>
