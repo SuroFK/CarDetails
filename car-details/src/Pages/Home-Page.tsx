@@ -1,6 +1,9 @@
+import style from "../styles/globals.module.css";
 const HomePage = () => {
     return(
-        <h4>Home Page</h4>
+        <div className={style.container}>
+            <h3 style={{color: "red"}}>Home Page</h3>
+        </div>
     )
 };
 
