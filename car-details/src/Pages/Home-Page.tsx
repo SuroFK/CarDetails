@@ -1,9 +1,12 @@
+import Navbar from "../components/Navbar";
 import style from "../styles/globals.module.scss";
 const HomePage = () => {
     return(
-        <div className={style.container}>
-            <h3 style={{color: "red"}}>Home Page</h3>
-        </div>
+        <>
+            <div className={style.container}>
+                <h1 style={{marginTop:"100px",color: "red"}}>Home Page</h1>
+            </div>
+        </>
     )
 };
 

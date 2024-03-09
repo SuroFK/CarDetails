@@ -1,6 +1,6 @@
 const Testing = () => {
     return(
-        <h4>Test</h4>
+        <h1 style = {{margin: "100px", color: "red"}}>Test</h1>
     )
 };
 

@@ -1,4 +1,15 @@
-.container {
+body {
     background-color: #000000;
-    padding: 20px;
-  }
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: "10px";
+}
+
+h1 {
+  color: aqua;
+}
+
+.container {
+  background-color: rgb(86, 196, 119);
+}
